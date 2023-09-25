@@ -9,9 +9,13 @@
 </head>
 
 <body>
-    <H1>JORGEEE</H1>
-    <div id="grilla">
-
+    <div class="formulario">
+        <label> Ancho habitacion
+            <input type="range" id="ancho-habitacion" min="50" max="100">
+        </label>
+        <label> Alto habitacion
+            <input type="range" id="alto-habitacion" min="200" max="1000">
+        </label>
     </div>
     <form class="formulario" method="post">
         <input type="text" placeholder="Nombre del mueble" name="nombre" id="nombre-mueble">
@@ -29,15 +33,12 @@
         <label>Color:<input type="color" name="color" id="color-mueble"></label>
         <input type="submit" value="Crear mueble">
     </form>
+    <div id="grilla">
 
-    <div class="formulario">
-        <label> Ancho habitacion
-            <input type="range" id="ancho-habitacion" min="50" max="100">
-        </label>
-        <label> Alto habitacion
-            <input type="range" id="alto-habitacion" min="200" max="1000">
-        </label>
     </div>
+    
+
+    
 
 
     <script src="script.js"></script>
