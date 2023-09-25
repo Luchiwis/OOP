@@ -4,10 +4,29 @@
     flex-wrap: wrap;
     column-gap: 10px;
     row-gap: 10px;
+    height: 500px;
+    width: 100%;
+    background-image: url("img/piso.jpg");
+    background-size: 500px;
+    overflow: hidden;
+
 }
 
 .mueble{
     display: inline-block;
     border: 1px solid;
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+
+.formulario{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.seleccionado{
+    border : 2px dashed white;
 }

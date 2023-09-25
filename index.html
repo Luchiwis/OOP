@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
+    <H1>JORGEEE</H1>
     <div id="grilla">
-        <div class="mueble">
-            <p>mubele1</p>
-            <p>peso: 10kg</p>
-        </div>
-        
+
+    </div>
+    <form class="formulario" method="post">
+        <input type="text" placeholder="Nombre del mueble" name="nombre" id="nombre-mueble">
+        <input type="number" , placeholder="ancho" name="ancho" id="ancho-mueble">
+        <input type="number" placeholder="alto" name="alto" id="alto-mueble">
+        <input type="number" placeholder="peso" name="peso" id="peso-mueble">
+        <select name="material" id="material-mueble">
+            <option value="">Madera</option>
+            <option value="">Aluminio</option>
+            <option value="">Hierro</option>
+            <option value="">Plastico</option>
+            <option value="">Carton</option>
+        </select>
+        <br>
+        <label>Color:<input type="color" name="color" id="color-mueble"></label>
+        <input type="submit" value="Crear mueble">
+    </form>
+
+    <div class="formulario">
+        <label> Ancho habitacion
+            <input type="range" id="ancho-habitacion" min="50" max="100">
+        </label>
+        <label> Alto habitacion
+            <input type="range" id="alto-habitacion" min="200" max="1000">
+        </label>
     </div>
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
